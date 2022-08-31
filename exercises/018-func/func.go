@@ -42,5 +42,5 @@ func main() {
 // defined with a return value one must also remember to
 // specify which value to return using the `return` keyword.
 func square(a int) int {
-	a * a
+	return a * a
 }

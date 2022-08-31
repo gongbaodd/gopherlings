@@ -18,7 +18,7 @@ import "fmt"
 
 func main() {
 	// A map with string keys and integer elements.
-	var age map[string]int
+	age := make(map[string]int)
 
 	// The program will crash if the map is not initialized correctly
 	// before accessing a key.

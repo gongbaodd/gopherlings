@@ -30,7 +30,7 @@ func main() {
 // Fix the function signature (the line with the `func` keyword)
 // by adding the two returned parameters with names like
 // the last example in the problem description.
-func return1And2() {
+func return1And2() (a, b int) {
 	a = 1
 	b = 2
 	return a, b

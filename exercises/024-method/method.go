@@ -19,7 +19,7 @@ func main() {
 	// We want to print formatted information on the book though- we
 	// could do this by calling a certain method that returns formatted
 	// information on the book.
-	fmt.Println(checkedOut)
+	fmt.Println(checkedOut.Info())
 }
 
 type book struct {

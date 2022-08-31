@@ -1,5 +1,4 @@
 // Problem:
-// TODO
 
 package main
 
@@ -20,7 +19,7 @@ func main() {
 	// This prevented us from printing unsanitized input! To sanitize
 	// call `sanitize` on unsafeInput to obtain a "safe" string!
 	unsafeInput := "stupid compiler"
-	PrintSafe(unsafeInput)
+	PrintSafe(sanitize(unsafeInput))
 }
 
 type safe string

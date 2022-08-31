@@ -1,11 +1,11 @@
 //
 // Problem:
-// A slice is the most common way to store ordered, consecutive elements 
+// A slice is the most common way to store ordered, consecutive elements
 // of the same type in a single structure. In other languages a slice is known
 // as an array or even lists.
-// 
+//
 // To initialize a slice one uses the make built-in:
-//  
+//
 //  desiredLength := 23
 //  s := make([]int, desiredLength)
 //
@@ -20,15 +20,17 @@
 
 package main
 
+import "fmt"
+
 func main() {
 	// How long should the slice be to house all values?
-	beatles := make([]string, ??)
-	
+	beatles := make([]string, 4)
+
 	beatles[0] = "john"
 	beatles[1] = "george"
 	beatles[2] = "ringo"
 	beatles[3] = "paul"
 
 	// Change this line so it prints the drummer's name.
-	fmt.Println(beatles[??])
+	fmt.Println(beatles[1:2])
 }

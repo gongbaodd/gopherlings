@@ -8,7 +8,7 @@
 //  } else {
 //  	x = max
 //  }
-// 
+//
 // if statements with else if and/or a preceding statement
 //
 //  if x := f(); x > max {
@@ -28,14 +28,14 @@ func main() {
 	number := 7
 	if number > 0 {
 		fmt.Println("number is greater than 0")
-	} {
-		fmt.Println("number is less than 0") 
+	} else {
+		fmt.Println("number is less than 0")
 	}
 
 	// Please make sure conditionals are correct.
-	if number = 0 {
+	if number == 0 {
 		fmt.Println("number is zero")
-	} else if number % 2 != 0 {
+	} else if number%2 != 0 {
 		fmt.Println("number is even")
 	} else {
 		fmt.Println("number is odd")

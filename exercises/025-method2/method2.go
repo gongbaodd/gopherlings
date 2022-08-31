@@ -24,5 +24,5 @@ type XORer bool
 // This code has an error due to operations between two distinct types.
 // These two values should be of same type to perform the inequality operation!
 func (a XORer) xor(b bool) bool {
-	return a != b
+	return bool(a) != b
 }

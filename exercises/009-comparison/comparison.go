@@ -20,10 +20,9 @@ func main() {
 	// A number is even when the remainder of number/2 is zero.
 	remainder := number % 2
 
-	
 	var is4even bool
 	// Something is wrong with this comparison.
-	is4even = remainder = 0
+	is4even = remainder == 0
 
 	// This should print "4 is even:" followed by true or false depending
 	// on whether 4 (the number variable) is really a even number.
